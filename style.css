@@ -1,0 +1,54 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Header styles */
+header {
+  background-color: maroon;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Event container styles */
+.event-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Event image styles */
+.event-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+/* Event title styles */
+.event-title {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+/* Event details styles */
+.event-details {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* Event description styles */
+.event-description {
+  margin-top: 1rem;
+  line-height: 1.5;
+}
